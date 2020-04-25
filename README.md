@@ -1,10 +1,7 @@
-Datasets Used:
-Cat-faces-dataset
-https://github.com/Ferlix/Cat-faces-dataset
+Files used:
+peoplegan.ipynb - DCGAN for generating humans or cats
+catpeoplegan.ipynb - Custom Dual discriminator gan to create cat/human hybrids.
 
-Download this repo, and unzip the tar files to access the cat faces.
+Need to have a kaggle.json file to download from kaggle cli (instructions here https://github.com/Kaggle/kaggle-api)
 
-Celeba dataset
-https://www.kaggle.com/jessicali9530/celeba-dataset
-
-Download this dataset in this repo
+Just run either file using a GPU, they were tested on google colab resources
